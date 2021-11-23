@@ -11,6 +11,7 @@
   "author": "Alan Palazzolo",
   "license": "MIT",
   "dependencies": {
+    "bad-words": "^3.0.4",
     "cors": "^2.8.5",
     "cuid": "^2.1.8",
     "debug": "^2.6.9",
