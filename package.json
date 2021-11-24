@@ -20,7 +20,8 @@
     "express-http-context": "^1.2.4",
     "lodash-es": "^4.17.21",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
   },
   "prettier": {
     "singleQuote": true,

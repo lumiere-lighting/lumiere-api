@@ -6,9 +6,10 @@
 
 // Dependencies
 import http from 'http';
-import app from './lib/app.js';
 import debugSetup from 'debug';
 import dotenv from 'dotenv';
+import { Server } from 'socket.io';
+import app from './lib/app.js';
 
 // Debugger
 const debug = debugSetup('lumiere:api-server');
@@ -26,6 +27,12 @@ app.set('port', port);
  * Create HTTP server.
  */
 const server = http.createServer(app);
+
+/**
+ * Websocket server.
+ */
+const io = new Server(server);
+app.__handleSocket(io);
 
 /**
  * Listen on provided port, on all network interfaces.
