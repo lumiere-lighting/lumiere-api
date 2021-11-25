@@ -21,7 +21,8 @@
     "lodash-es": "^4.17.21",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
-    "socket.io": "^4.4.0"
+    "socket.io": "^4.4.0",
+    "twilio": "^3.71.2"
   },
   "prettier": {
     "singleQuote": true,
