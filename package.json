@@ -11,6 +11,9 @@
   },
   "author": "Alan Palazzolo",
   "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "bad-words": "^3.0.4",
     "colorthief": "^2.3.2",

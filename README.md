@@ -49,5 +49,5 @@ Deployed wherever a NodeJS app can be deployed with websocket support.
 - Create new project in Heroku.
 - Setup [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and `heroku login`.
 - Add Heroku remote: `heroku git:remote -a HEROKU_APP_NAME`
-- Deploy changes: `git push heroku master`
+- Deploy changes: `git push heroku main`
 - Enable/scale with something like: `heroku ps:scale web=1`
