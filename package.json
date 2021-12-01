@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
@@ -36,5 +36,8 @@
     "singleQuote": true,
     "semi": true,
     "trailingComma": "none"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
   }
 }
