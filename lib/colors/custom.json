@@ -1,0 +1,41 @@
+{
+  "rainbow": ["red", "orange", "yellow", "green", "blue", "indigo", "violet"],
+  "Santa": ["red", "white"],
+  "candy cane": ["red", "white", "green"],
+  "Christmas": ["red", "white", "green"],
+  "Xmas": ["red", "white", "green"],
+  "Rudolph": [
+    "brown",
+    "brown",
+    "red",
+    "brown",
+    "brown",
+    "brown",
+    "brown",
+    "brown",
+    "brown"
+  ],
+  "Hanukkah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
+  "menorah": [
+    "white",
+    "white",
+    "white",
+    "white",
+    "white",
+    "white",
+    "white",
+    "white",
+    "white",
+    "black"
+  ],
+  "Frosty": ["white", "white", "white", "orange"],
+  "Kwanzaa": ["green", "green", "green", "#3C2005", "red", "red", "red"],
+  "good fellow": ["#FF0080"],
+  "Chacha": ["#FFF44F"],
+  "green line": ["#00ff00"],
+  "red line": ["#ff0000"],
+  "blue line": ["#0000ff"],
+  "Mechanics": ["blue", "white"],
+  "arts": ["hotpink", "white"],
+  "street light": ["red", "yellow", "green"]
+}
