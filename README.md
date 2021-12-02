@@ -20,10 +20,11 @@ The API is the central source of what the lights should be, and includes a numbe
 Configuration is managed in environment variables. These can managed in a `.env` file.
 
 - `NODE_ENV`: Standard environment variable, `development` or `production`
-- `PORT`: Port to run the application on.
+- `PORT`: Port to run the application on. Defaults to `3000`.
 - `TWILIO_ACCOUNT_SID`
 - `TWILIO_AUTH_TOKEN`
 - `TWILIO_PHONE_NUMBER`
+- `MAX_LIGHTS_STORE`: The maximum number of lights to keep (in memory); defaults to `100`.
 
 ## Development
 
