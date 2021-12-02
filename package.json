@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "bad-words": "^3.0.4",
+    "color-name-list": "^8.36.0",
     "colorthief": "^2.3.2",
     "cors": "^2.8.5",
     "cuid": "^2.1.8",
