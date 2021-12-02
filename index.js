@@ -7,21 +7,17 @@
 // Dependencies
 import http from 'http';
 import debugSetup from 'debug';
-import dotenv from 'dotenv';
 import { Server } from 'socket.io';
+import { port } from './lib/config.js';
 import app from './lib/app.js';
 
 // Debugger
 const debug = debugSetup('lumiere:api-server');
 
-// Environment variables
-dotenv.config();
-
 /**
  * Get port from environment and store in Express.
  */
-const port = normalizePort(process.env.PORT || '3000');
-app.set('port', port);
+app.set('port', normalizePort(port));
 
 /**
  * Create HTTP server.
