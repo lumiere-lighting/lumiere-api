@@ -27,7 +27,11 @@ const server = http.createServer(app);
 /**
  * Websocket server.
  */
-const io = new Server(server);
+const io = new Server(server, {
+  cors: {
+    origin: '*'
+  }
+});
 app.__handleSocket(io);
 
 /**
