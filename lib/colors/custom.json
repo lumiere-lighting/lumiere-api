@@ -16,6 +16,7 @@
     "brown"
   ],
   "Hanukkah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
+  "Chanukah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
   "menorah": [
     "white",
     "white",
@@ -37,5 +38,49 @@
   "blue line": ["#0000ff"],
   "Mechanics": ["blue", "white"],
   "arts": ["hotpink", "white"],
-  "street light": ["red", "yellow", "green"]
+  "street light": ["red", "yellow", "green"],
+  "Black Lives Matter": ["#111111"],
+  "sunset": ["#4B3D60", "#FD5E53", "#FC9C54", "#FFE373"],
+  "Pride": ["#D12229", "#F68A1E", "#FDE01A", "#007940", "#24408E", "#732982"],
+  "bi": [
+    "#F347F8",
+    "#F787FA",
+    "#FDC6FD",
+    "#FFFFFF",
+    "#C6E0FD",
+    "#76B5fA",
+    "#2D8CF7"
+  ],
+  "genderfae": [
+    "#97C3A5",
+    "#C3DEAE",
+    "#F9FACD",
+    "#FFFFFF",
+    "#FCA2C4",
+    "#DB8AE4",
+    "#A97EDD"
+  ],
+  "genderflux": [
+    "#F57694",
+    "#F2A3B9",
+    "#CFCFCF",
+    "#7BE1F5",
+    "#3ECDFA",
+    "#FFF48C"
+  ],
+  "pansexual": ["#FF218C", "#FFD800", "#21B1FF"],
+  "Progressive Pride": [
+    "#E51E25",
+    "#F68C1E",
+    "#F9EE13",
+    "#0D8040",
+    "#3E5FAC",
+    "#732A85",
+    "#FFFFFF",
+    "#FFAFC8",
+    "#74D7EE",
+    "#613915",
+    "#000000"
+  ],
+  "androgyne": ["#FE007F", "#9832FF", "#00B8E7"]
 }
