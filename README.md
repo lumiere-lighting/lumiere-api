@@ -11,7 +11,18 @@ The API is the central source of what the lights should be, and includes a numbe
 
 ## Usage
 
-(to come)
+REST API
+
+- `/lights`: Current stack of lights that have been provided.
+- `/lights` (POST): Update lights.
+- `/lights/current`: Get the currently set lights.
+- `/lights/twilio` (POST): Twilio test or image payload.
+- `/colors`: Get current list of all colors (note that this will be large)
+
+Websocket
+
+- Utilizes socket.io.
+- Event `lights:get`: Sends back current lights.
 
 ## Installation
 
