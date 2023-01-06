@@ -16,7 +16,12 @@
     "brown"
   ],
   "Hanukkah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
+  "Hannukkah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
+  "Hannukah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
   "Chanukah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
+  "Channukah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
+  "Chanukkah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
+  "Channukkah": ["#c0c0c0", "#c0c0c0", "blue", "blue"],
   "menorah": [
     "white",
     "white",
