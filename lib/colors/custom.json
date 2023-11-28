@@ -1,7 +1,7 @@
 {
-  "rainbow": ["red", "orange", "yellow", "green", "blue", "indigo", "violet"],
+  "Rainbow": ["red", "orange", "yellow", "green", "blue", "indigo", "violet"],
   "Santa": ["red", "white"],
-  "candy cane": ["red", "white", "green"],
+  "Candy cane": ["red", "white", "green"],
   "Christmas": ["red", "white", "green"],
   "Xmas": ["red", "white", "green"],
   "Rudolph": [
@@ -38,16 +38,16 @@
   "Kwanzaa": ["green", "green", "green", "#3C2005", "red", "red", "red"],
   "good fellow": ["#FF0080"],
   "Chacha": ["#FFF44F"],
-  "green line": ["#00ff00"],
-  "red line": ["#ff0000"],
-  "blue line": ["#0000ff"],
+  "Green line": ["#00ff00"],
+  "Red line": ["#ff0000"],
+  "Blue line": ["#0000ff"],
   "Mechanics": ["blue", "white"],
-  "arts": ["hotpink", "white"],
-  "street light": ["red", "yellow", "green"],
+  "Arts": ["hotpink", "white"],
+  "Street light": ["red", "yellow", "green"],
   "Black Lives Matter": ["#111111"],
-  "sunset": ["#4B3D60", "#FD5E53", "#FC9C54", "#FFE373"],
+  "Sunset": ["#4B3D60", "#FD5E53", "#FC9C54", "#FFE373"],
   "Pride": ["#D12229", "#F68A1E", "#FDE01A", "#007940", "#24408E", "#732982"],
-  "bi": [
+  "Bi": [
     "#F347F8",
     "#F787FA",
     "#FDC6FD",
@@ -56,7 +56,7 @@
     "#76B5fA",
     "#2D8CF7"
   ],
-  "genderfae": [
+  "Gender fae": [
     "#97C3A5",
     "#C3DEAE",
     "#F9FACD",
@@ -65,7 +65,7 @@
     "#DB8AE4",
     "#A97EDD"
   ],
-  "genderflux": [
+  "Gender flux": [
     "#F57694",
     "#F2A3B9",
     "#CFCFCF",
@@ -73,7 +73,7 @@
     "#3ECDFA",
     "#FFF48C"
   ],
-  "pan": ["#FF218C", "#FFD800", "#21B1FF"],
+  "Pan": ["#FF218C", "#FFD800", "#21B1FF"],
   "Progressive Pride": [
     "#E51E25",
     "#F68C1E",
@@ -87,5 +87,5 @@
     "#613915",
     "#000000"
   ],
-  "androgyne": ["#FE007F", "#9832FF", "#00B8E7"]
+  "Androgyne": ["#FE007F", "#9832FF", "#00B8E7"]
 }

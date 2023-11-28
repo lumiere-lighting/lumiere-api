@@ -52,6 +52,16 @@ Or you can manually hit the endpoint with something like:
 
 - `curl --data "Body=blue" -X POST http://localhost:PORT/lights/twilio`
 
+## Colors
+
+See `lib/colors/index.js` for color sources.
+
+### Collecting / scraping
+
+Some scraping has been done with some real-quick jQuery, in-browser scraping, others require a bit more:
+
+- Pokemon palettes: Run `node lib/colors/collect/pokemon.js`. Note that it will store files in `.cache/`.
+
 ## Deployment
 
 Deployed wherever a NodeJS app can be deployed with websocket support.
