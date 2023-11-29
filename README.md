@@ -32,6 +32,7 @@ Configuration is managed in environment variables. These can managed in a `.env`
 
 - `NODE_ENV`: Standard environment variable, `development` or `production`
 - `PORT`: Port to run the application on. Defaults to `3333`.
+- `PROXIES`: Used for the [rate-limiter](https://express-rate-limit.mintlify.app/guides/troubleshooting-proxy-issues), specifies the number of internal proxies such as a load-balancer. Probably 0 or 1.
 - `TWILIO_ACCOUNT_SID`
 - `TWILIO_AUTH_TOKEN`
 - `TWILIO_PHONE_NUMBER`
