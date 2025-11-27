@@ -40,6 +40,18 @@ Configuration is managed in environment variables. These can managed in a `.env`
 
 ## Development
 
+### Run server
+
+Run server with:
+
+```bash
+npm start
+```
+
+Some helpful commands for testing:
+
+1. Change lights: `curl -X POST -H "Content-Type: application/json" -d '{"source": "local-test", "input": "blue"}' http://localhost:PORT/lights`
+
 ### Twilio
 
 For local testing:
@@ -52,6 +64,14 @@ For local testing:
 Or you can manually hit the endpoint with something like:
 
 - `curl --data "Body=blue" -X POST http://localhost:PORT/lights/twilio`
+
+### Tests
+
+To run tests:
+
+```bash
+npm test
+```
 
 ## Colors
 
