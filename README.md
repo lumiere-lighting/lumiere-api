@@ -90,7 +90,9 @@ Deployed wherever a NodeJS app can be deployed with websocket support.
 ### Heroku
 
 - Create new project in Heroku.
-- Setup [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and `heroku login`.
-- Add Heroku remote: `heroku git:remote -a HEROKU_APP_NAME`
+- Setup [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+  - Not suggested, but can use `npx`
+- `npx heroku login`.
+- Add Heroku remote: `npx heroku git:remote -a HEROKU_APP_NAME`
 - Deploy changes: `git push heroku main`
-- Enable/scale with something like: `heroku ps:scale web=1`
+- Enable/scale with something like: `npx heroku ps:scale web=1`
