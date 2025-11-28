@@ -82,6 +82,7 @@ See `lib/colors/index.js` for color sources.
 Some scraping has been done with some real-quick jQuery, in-browser scraping, others require a bit more:
 
 - Pokemon palettes: Run `node lib/colors/collect/pokemon.js`. Note that it will store files in `.cache/`.
+- Pantone colors: Run `node lib/colors/collect/pantone.js`
 
 ## Deployment
 
