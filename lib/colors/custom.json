@@ -87,5 +87,12 @@
     "#613915",
     "#000000"
   ],
-  "Androgyne": ["#FE007F", "#9832FF", "#00B8E7"]
+  "Androgyne": ["#FE007F", "#9832FF", "#00B8E7"],
+  "Spartans": ["#FFFFFF", "#1C453A"],
+  "Wolverines": ["#FFFFFF", "#FAC417", "#272341"],
+  "Lions": ["#005A8B", "#B0B7BC"],
+  "Pistons": ["#ed174c", "#006bb6", "#0f586c"],
+  "Red Wings": ["#c8102e", "#ffffff"],
+  "Tigers": ["#0C2C56"],
+  "Old School Tigers": ["#041E5E", "#f64b13"]
 }
