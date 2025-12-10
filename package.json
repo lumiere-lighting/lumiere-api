@@ -46,6 +46,7 @@
     "trailingComma": "none"
   },
   "devDependencies": {
+    "d3-dsv": "^3.0.1",
     "jest": "^30.2.0",
     "supertest": "^7.1.4"
   }
